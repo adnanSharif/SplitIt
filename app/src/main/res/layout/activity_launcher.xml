@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_scene"
+    tools:context=".LauncherActivity">
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/use_as_guest_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Use as a guest"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background_rounded"
+        style="@style/ButtonText"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="Login / SignUp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background_rounded"
+        style="@style/ButtonText"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
